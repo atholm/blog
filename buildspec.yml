@@ -7,6 +7,6 @@ phases:
   build:
     commands:
       - echo "******** Building Jekyll site ********"
-      - jekyll build _site
+      - jekyll build
       - echo "******** Uploading to S3 ********"
       - aws s3 sync _site/ s3://tankred.me
