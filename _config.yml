@@ -17,6 +17,7 @@ instagram:          https://www.instagram.com/aspirethemes
 
 markdown:  kramdown
 permalink: pretty
+encoding: utf-8
 paginate:  9
 sass:
   style: compressed
