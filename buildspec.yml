@@ -8,7 +8,6 @@ phases:
     commands:
       - echo "******** Bundle Update ********"
       - bundle install
-      - bundle update
       - echo "******** Building Jekyll site ********"
       - jekyll build
       - echo "******** Uploading to S3 ********"
