@@ -6,6 +6,8 @@ phases:
       - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed
   build:
     commands:
+      - export LC_ALL=en_US.UTF-8  
+      - export LANG=en_US.UTF-8
       - echo "******** Bundle Update ********"
       - bundle install
       - echo "******** Building Jekyll site ********"
