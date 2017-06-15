@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Welcome to Jekyll!
+title: Starting a Podcast  (Part 1)
 featured: true
 author: anders
-tags: [python, ruby, java]
-image: '/images/posts/CoverBackground.jpg'
+tags: [podcast]
+image: '/images/posts/podcast_equip.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac ex non nunc pellentesque rhoncus et ac nibh. Praesent condimentum aliquam nunc, quis molestie nibh lacinia eu. Quisque vel varius sapien, ut vestibulum nunc. Suspendisse aliquet consequat augue, sit amet dictum nisl dignissim nec. Donec condimentum consectetur faucibus. Pellentesque eget nulla purus. Vivamus semper eros justo, sit amet interdum sapien volutpat vel.
