@@ -7,7 +7,7 @@ $(document).ready(function() {
   // ===============
 
   // Add large-6 to second and third posts in homepage, so each one will be 50% width
-  $('.is-home .js-post-card-wrap:nth-of-type(2), .is-home .js-post-card-wrap:nth-of-type(3)')
+  $('.is-home .js-post-card-wrap:nth-of-type(1), .is-home .js-post-card-wrap:nth-of-type(2)')
   .addClass('o-grid__col--2-4-m o-grid__col--2-4-l');
 
   // =================
