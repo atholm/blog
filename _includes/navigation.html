@@ -1,12 +1,11 @@
 <li class='c-nav__item'>
   <a href='{{ site.baseurl }}/' class='c-nav__link'>Home</a>
 </li>
+{% comment %}
 <li class='c-nav__item'>
   <a href='{{ site.baseurl }}/tag/python/' class='c-nav__link'>Travel</a>
 </li>
-<li class='c-nav__item'>
-  <a href='{{ site.baseurl }}/tag/python/' class='c-nav__link'>Projects</a>
-</li>
+{% endcomment %}
 
 {% for page in site.pages %}
   {% unless page.name == '404.md' %}

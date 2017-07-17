@@ -4,12 +4,12 @@
 \*------------------------------------*/
 
 .c-footer {
-  padding: double($base-spacing-unit) 0 $base-spacing-unit 0;
+  padding: 20px 0 $base-spacing-unit 0;
   background-color: $bg-gray;
   border-top: 1px solid $color-border;
 
   @include mq($from: desktop) {
-    padding: quadruple($base-spacing-unit) 0 $base-spacing-unit 0;
+    padding: 20px 0 $base-spacing-unit 0;
   }
 
   &__copy {
