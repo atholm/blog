@@ -17,10 +17,12 @@ h4,
 h5,
 h6 {
   font-weight: inherit;
+  color: #404851;
 }
 
 h1 {
   font-size: $font-size-h1;
+  line-height: .2;
 }
 
 h2 {
@@ -33,6 +35,7 @@ h3 {
 
 h4 {
   font-size: $font-size-h4;
+  color: #96a1ad;
 }
 
 h5 {

@@ -1,13 +1,26 @@
 ---
 layout: page
 title: Gear
-image: '/images/pages/about.jpeg'
+image: '/images/pages/gear_temp.jpg'
 ---
+# The Gear I Use 
+#### Updated Juli, 2017
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+The following is a list of all the different hardware, software and services I use during my work and hobbies.
 
-![about](/images/posts/image15.jpg)
+## Camera Gear
+I'm a Senior Manager at [LEGO](https://lego.com) where I've been focusing on digital experiences for kids using technologies such as; native [iOS](http://developer.apple.com) & [Android](https://developers.google.com) development, [Unity](http://unity3d.com) and [AWS](https://aws.amazon.com).
 
-You love Minimalism, and you also love writing, Aspire is designed for you. Maxima focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+## Plane
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+## Podcast Gear
+
+## Computer
+
+## Software
+
+## Mobile Devices
+
+## Home Theater
+
+## Personal Audio
