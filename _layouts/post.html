@@ -1,60 +1,20 @@
 ---
 layout: default
 ---
-
-{% include base_path %}
-
-{% assign author = site.authors[page.author] %}
-
-{% if page.image %}
-  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
-{% endif %}
-
-<div class='c-post-hero' style='background-image: url({{ page.image | prepend: site.baseurl }})'></div>
-
-<div class='o-wrapper'>
-
-  <div class='o-grid'>
-    <div class='o-grid__col o-grid__col--center o-grid__col--2-3-m'>
-      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
-
-        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
-
-        <h2 class='c-post__title'>{{ page.title }}</h2>
-
-        <div class='c-content'>
-          {{ content }}
-        </div>
-
-        <div class='c-tags'>
-          {% for tag in page.tags %}
-            <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
-          {% endfor %}
-        </div>
-
-        <div class='o-grid'>
-          <div class='o-grid__col o-grid__col--full'>
-            {% include share.html %}
-          </div>
-        </div>
-
-<!--
-        {% include subscribe-form.html %}
-
-      -->
-<!--
-        {% if page.author %}
-          {% include author.html %}
-        {% endif %}
--->
-   
-
-        <!--{% include disqus.html %}-->
-
-      </article>
-
+<article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time>
+      {% if page.tags.size > 0 %}
+      &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
+      {% endif %}
     </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
 
-  </div>
-
-</div>
+  <section class="post">
+    {{ content }}
+  </section>
+  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+</article>
+{% if page.comments != false %}{% include disqus.html %}{% endif %}

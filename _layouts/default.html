@@ -1,26 +1,16 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
+  {% include head.html %}
 
-{% include head.html %}
-
-<body class='{% if page.url == '/' %} is-home {% endif %}'>
-
-  {% include analytics.html %}
-
-  <div class='js-off-canvas-container c-off-canvas-container'>
+  <body>
     {% include header.html %}
 
-    {{ content }}
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        {{ content }}
+      </div>
 
-    {% include footer.html %}
-  </div>
-
-  <script src="{{ '/js/jquery-3.1.1.min.js' | prepend: site.baseurl }}">            </script>
-  <script src="{{ '/js/jquery.viewportchecker.min.js' | prepend: site.baseurl }}">  </script>
-  <script src="{{ '/js/jquery.ghostHunter.min.js' | prepend: site.baseurl }}">      </script>
-  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}">              </script>
-  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}">              </script>
-  <script src="{{ '/js/app.js' | prepend: site.baseurl }}">                         </script>
-</body>
-
+      {% include footer.html %}
+    </div>
+  </body>
 </html>
